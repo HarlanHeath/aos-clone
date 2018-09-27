@@ -11,13 +11,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <p>Mah Clone! :O</p>
+        <h1>Battalion Builder</h1>
         <Leaders />
         <Units />
         <Behemoths />
         <Battalions />
         <EndlessSpelss />
         <Notes />
+        <div>
+          <h3>Point Total: </h3>
+        </div>
       </div>
     );
   }
